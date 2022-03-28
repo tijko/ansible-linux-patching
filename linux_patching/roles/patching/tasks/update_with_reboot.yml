@@ -118,6 +118,9 @@
     name: "*"
     state: latest
     #exclude: httpd*, php* 
+  become_user: root
+  become_method: sudo
+  become: true
   when: ansible_distribution in supported_distros
   register: yum_result
 

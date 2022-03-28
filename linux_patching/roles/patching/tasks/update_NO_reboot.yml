@@ -117,6 +117,9 @@
     name: "*"
     state: latest
     exclude: kernel*, glibc*, linux-firmware*, systemd*, dbus*, udev*
+  become_user: root
+  become_method: sudo
+  become: true
   when: ansible_distribution in supported_distros
   register: yum_result
 
