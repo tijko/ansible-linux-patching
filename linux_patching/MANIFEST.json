@@ -1,0 +1,39 @@
+{
+ "collection_info": {
+  "description": "Patching Centos and RHEL system to the latest version with very comprehensive pre/post checks", 
+  "repository": "https://github.com/ataha/patch-Linux-servers-Centos-Redhat-to-the-latest-release.git", 
+  "tags": [
+   "linux", 
+   "rhel", 
+   "centos", 
+   "fedora", 
+   "patch", 
+   "upgrade", 
+   "system", 
+   "packaging"
+  ], 
+  "dependencies": {}, 
+  "authors": [
+   "Ahmed Hagag <ahmed.thagag@gmail.com>"
+  ], 
+  "issues": "https://github.com/ataha/patch-Linux-servers-Centos-Redhat-to-the-latest-release/issues", 
+  "name": "linux_patching", 
+  "license": [
+   "GPL-2.0-or-later"
+  ], 
+  "documentation": "http://docs.example.com", 
+  "namespace": "ataha", 
+  "version": "1.1.1", 
+  "readme": "README.md", 
+  "license_file": null, 
+  "homepage": "http://example.com"
+ }, 
+ "file_manifest_file": {
+  "format": 1, 
+  "ftype": "file", 
+  "chksum_sha256": "26801018b9f8745c53ebb00dba6c07423335b32060797d27ab3b086d34494020", 
+  "name": "FILES.json", 
+  "chksum_type": "sha256"
+ }, 
+ "format": 1
+}
