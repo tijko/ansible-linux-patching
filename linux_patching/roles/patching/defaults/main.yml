@@ -5,4 +5,5 @@
 local_dir: "/tmp/ansible/sys-patching"
 
 #Patching_type: KERNEL/NOREBOOT. Default KERNEL
-Patching_type:  KERNEL
+#Patching_type:  KERNEL
+Patching_type: NOREBOOT 
